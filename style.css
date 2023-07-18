@@ -74,7 +74,9 @@ padding: 130px;
     height: 50vh;
 }
 
-.brand img{
+/* hover effect */
+
+.tshirt-brand1 img{
     
     display: block;
     width: 100%;
@@ -95,10 +97,10 @@ padding: 130px;
   background-repeat: no-repeat;
 }
     
-.clothes:hover .overlay {
+.tshirt-new1:hover .overlay {
     opacity: 1;
 }
-.clothes{
+.tshirt-new1{
     position: relative;
   width: 50%;
 }
