@@ -108,3 +108,38 @@ padding: 130px;
 .tshirt-prices{
     padding: 50px;
 }
+
+
+/* hover effect 2 */
+.tshirt-brand2 img{
+    
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url("https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-01-c-300x366.jpg");
+  background-repeat: no-repeat;
+}
+    
+.tshirt-new2:hover .overlay {
+    opacity: 1;
+}
+.tshirt-new2{
+    position: relative;
+  width: 50%;
+}
+
+.tshirt-prices{
+    padding: 50px;
+}
