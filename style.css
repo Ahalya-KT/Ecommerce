@@ -240,7 +240,9 @@
 .section5-about {
   padding-bottom: 60%;
   font-family: poppins;
-  align-self: start;
+  position: absolute;
+    top: 440%;
+  
 }
 .section5-about h2 {
   /* text-align: center; */
@@ -255,4 +257,81 @@
   font-weight: 400;
   color: #7b7979;
   width: 80%;
+}
+.review{
+  text-align: center;
+  padding: 60px;
+  font-family: poppins;
+
+  
+}
+.review h3{
+  font-size: 25px;
+  /* width: 50%;
+  padding-left: 100px; */
+}
+/* .review h3 {
+  width: 80%;
+  padding-left: 35%;
+  text-align: center;
+  font-family: poppins;
+  font-size: 16px;
+}
+.review h1{
+  padding-left: 50px;
+} */
+
+i{
+  color:#f0ad4e;
+  float: center;
+position: relative;
+margin-left: 4px;
+
+}
+/* .review p{
+  font-size: 15px;
+  font-family: poppins;
+} */
+
+/* section6 styling */
+footer{
+  text-align: center;
+  padding:50px;
+  background-color:#faedeb ;
+  height: 70vh;
+  
+}
+.copyright{
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  height: 10vh;
+}
+/* section7 */
+.picset1 img{
+  width: 100%;
+  height: 50vh;
+ 
+}
+.picset2 img{
+  width: 100%;
+  height: 50vh;
+}
+
+.pic1{
+  width: 90%;
+  height:80vh;
+}
+.pic2{
+  width: 90%;
+  height: 80vh;
+}
+.section7-pic h6{
+  text-align: center;
+}
+.section7-pic2 h6{
+  text-align: center;
+}
+.section7{
+  text-align: center;
 }
